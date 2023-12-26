@@ -14,5 +14,3 @@
 
 >>not my main portfolio◑︿◐
 
-THANKS FOR WATCHING
-![enter image description here](https://64.media.tumblr.com/2636f7957c23c63b7d191dd231975c2f/273dcc091f6c543f-12/s500x750/57b75964516a919a96c209386d2787d099d91afa.gifv)
