@@ -1,0 +1,98 @@
+@import "../../app.scss";
+
+.contact {
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    @include mobile {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        @include mobile {
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+            margin-top: 70px;
+        }
+
+        h1 {
+            font-size: 100px;
+            line-height: 88px;
+
+            @include mobile {
+                font-size: 36px;
+            }
+        }
+
+        span {
+            font-weight: 300;
+        }
+    }
+
+    .formContainer {
+        flex: 1;
+        position: relative;
+
+        @include mobile {
+            padding: 1px;
+            width: 80%;
+            margin-top: -20px;
+        }
+
+
+        .phoneSvg {
+            stroke: (#784398);
+            position: absolute;
+            margin: auto;
+            z-index: -1;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            input,
+            textarea {
+                padding: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+
+                @include mobile {
+                    padding: 1px;
+                    margin-bottom: -10px;
+                    text-align: center;
+                }
+            }
+
+            button {
+                padding: 11px;
+                border: none;
+                background: linear-gradient(270deg, #003264 0, #003065 7.14%, #002e65 14.29%, #002c64 21.43%, #002963 28.57%, #132660 35.71%, #26235d 42.86%, #321f59 50%, #3c1b54 57.14%, #44174f 64.29%, #4a1249 71.43%, #500d43 78.57%, #54073d 85.71%, #570336 92.86%, #5a0030 100%);
+                color: white;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 40px;
+
+                @include mobile {
+                    padding: 1px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
